@@ -2,3 +2,29 @@ body {
     background-color: aliceblue;
     font-family: 'Shantell Sans', cursive;
 }
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #6495ed;
+    background-color: #afcbfd;
+    padding: 5vh 5vw;
+    transition: transform 0.2s linear;
+}
+
+a:hover{
+    transform: scale(2,2) rotate(1turn);
+    transition: transform 0.4s linear;
+    opacity: 0.6;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10vh 10vw;
+    background-color: white;
+}
